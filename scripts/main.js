@@ -11,7 +11,7 @@
     }
     else {
         var storedName = localStorage.getItem('name');
-        author.textContent = 'Mozilla is cool, ' + storedName;
+        author.textContent = 'Mozilla is cool, ' + storedName + '.';
     }
 
     myButton.onclick = function () {
@@ -38,7 +38,7 @@
 
         if (!isEmptyName(myName)) {
             localStorage.setItem('name', myName);
-            author.textContent = 'Mozilla is cool, ' + myName;
+            author.textContent = 'Mozilla is cool, ' + myName + '.';
         }
         else {
             author.textContent = 'Mozilla is cool, ' + 'default user.';
