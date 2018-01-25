@@ -6,7 +6,7 @@ p, li {
   font-size: 16px;    
   line-height: 2;
   letter-spacing: 1px;
-  color: red;
+  color: rgb(15, 15, 15);
 }
 
 html {
